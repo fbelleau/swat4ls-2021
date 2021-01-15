@@ -9,7 +9,7 @@ import json
 
 from elasticsearch import Elasticsearch
 es = Elasticsearch("http://192.168.3.46:9209")
-es = Elasticsearch("http://sirenadmin:password@206.12.89.13:9200")
+es = Elasticsearch("http://***@206.12.89.13:9200")
 print(es)
 
 xmlDoc = minidom.parse('RESIDUES.XML')
