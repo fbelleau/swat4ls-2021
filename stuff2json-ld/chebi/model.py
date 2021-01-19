@@ -1,12 +1,12 @@
 # chebi_wsdl2es.py
 
 import pandas, json, zeep, Elasticsearch
-
 wsdl = 'https://www.ebi.ac.uk/webservices/chebi/2.0/webservice?wsdl'
 
+infile = os.path.join(data_folder,filename)
+dat = pandas.read_csv(infile,sep="\t")
+
 for id in dat["ID"] :
-
-
         try:
             data = client.service.getCompleteEntity(id)
            
