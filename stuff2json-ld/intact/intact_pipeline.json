@@ -1,0 +1,53 @@
+[
+  {
+    "set": {
+      "field": "@context",
+      "value": "http://schema.org/",
+      "description": "@context"
+    }
+  },
+  {
+    "set": {
+      "field": "@id",
+      "value": "intact:{{_id}}",
+      "description": "@id"
+    }
+  },
+  {
+    "set": {
+      "field": "@type",
+      "value": "intact_voc:ProteinInteraction",
+      "description": "@type"
+    }
+  },
+  {
+    "set": {
+      "field": "bm:namespace",
+      "value": "intact",
+      "description": "bm:namespace"
+    }
+  },
+  {
+    "set": {
+      "field": "bm:identifier",
+      "value": "{{_id}}",
+      "tag": "bm:identifier",
+      "description": "bm:identifier"
+    }
+  },
+  {
+    "set": {
+      "field": "bm:uri",
+      "value": "http://identifiers.org/intact:{{_id}}",
+      "tag": "bm:identifier",
+      "description": "bm:uri"
+    }
+  },
+  {
+    "set": {
+      "field": "rdfs:label",
+      "value": "{{Interaction_annotation}} [{{@id}}]",
+      "description": "rdfs:label"
+    }
+  }
+]
