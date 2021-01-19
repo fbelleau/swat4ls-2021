@@ -4,6 +4,11 @@
 
 # python3 intact_txt2es.py xaa 1000 0
 
+# https://www.ebi.ac.uk/intact/downloads
+# ftp://ftp.ebi.ac.uk/pub/databases/intact/current/psimitab/intact.txt
+# http://www.psidev.info/mif
+# http://www.ebi.ac.uk/Tools/webservices/psicquic/registry/registry?action=STATUS
+
 
 import os, pandas, csv, re, sys
 import json
